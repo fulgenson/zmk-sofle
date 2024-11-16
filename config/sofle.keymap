@@ -90,22 +90,12 @@
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &trans  &trans  &trans  &trans      &trans     &trans       &trans
 &bt BT_CLR_ALL  &out OUT_TOG  &trans        &trans        &bl BL_TOG    &rgb_ug RGB_EFF                   &trans  &trans  &trans  &trans      &trans     &trans       &trans
 &trans          &trans        &trans        &trans        &bl BL_CYCLE  &rgb_ug RGB_TOG                   &trans  &trans  &trans  &trans      &trans     &trans       &trans
-&trans          &trans        &trans        &bootloader   &trans        &rgb_ug RGB_COLOR_HSB(0,0,100)    &trans  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
+&trans          &trans        &trans        &bootloader   &trans        &rgb_ug RGB_COLOR_HSB(0,0,100)    &trans  &trans  &trans  &sys_reset  &soft_off  &bootloader  &tog 0
 &trans          &trans        &trans        &trans        &trans        &trans                            &trans  &trans  &trans  &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
             label = "bt_rgb_layer";
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
