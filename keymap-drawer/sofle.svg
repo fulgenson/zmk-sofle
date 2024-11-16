@@ -287,8 +287,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-base_layer">
-<text x="0" y="28" class="label" id="base_layer">base_layer:</text>
+<g transform="translate(40, 0)" class="layer-base">
+<text x="0" y="28" class="label" id="base">base:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -585,8 +585,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 259)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#alt_layer">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">alt_layer</tspan></text>
+<a href="#alt">
+<text x="0" y="-4" class="key tap layer-activator">alt</text>
 </a></g>
 <g transform="translate(314, 283) rotate(30.0)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -630,14 +630,15 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="882" y="183" width="28" height="26" class="combo"/>
-<a href="#bt_rgb_layer">
-<text x="896" y="196" class="combo tap layer-activator"><tspan style="font-size: 60%">bt_rgb_la…</tspan></text>
-</a><text x="896" y="207" class="combo hold">toggle</text>
+<text x="896" y="196" class="combo tap">
+<tspan x="896" dy="-0.6em">bt</tspan><tspan x="896" dy="1.2em">…</tspan>
+</text>
+<text x="896" y="207" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 388)" class="layer-alt_layer">
-<text x="0" y="28" class="label" id="alt_layer">alt_layer:</text>
+<g transform="translate(40, 388)" class="layer-alt">
+<text x="0" y="28" class="label" id="alt">alt:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -980,8 +981,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 776)" class="layer-bt_rgb_layer">
-<text x="0" y="28" class="label" id="bt_rgb_layer">bt_rgb_layer:</text>
+<g transform="translate(40, 776)" class="layer-bt &amp; rgb">
+<text x="0" y="28" class="label" id="bt--rgb">bt &amp; rgb:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1215,10 +1216,12 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:progress-download"/>
 </g>
-<g transform="translate(252, 203)" class="key none keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(252, 203)" class="key keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">BRI</tspan>
+</text>
 </g>
 <g transform="translate(308, 203)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1260,8 +1263,8 @@ rect.held, rect.combo.held {
 <g transform="translate(896, 224)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#base_layer">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">base_layer</tspan></text>
+<a href="#base">
+<text x="0" y="-4" class="key tap layer-activator">base</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(392, 217)" class="key none keypos-52">
@@ -1279,10 +1282,12 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
-<g transform="translate(252, 259)" class="key none keypos-55">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(252, 259)" class="key keypos-55">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">BRD</tspan>
+</text>
 </g>
 <g transform="translate(314, 283) rotate(30.0)" class="key none keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
