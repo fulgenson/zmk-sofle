@@ -71,7 +71,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>;
-            display-name = "base_layer";
+            display-name = "base";
         };
 
         layer_1 {
@@ -83,21 +83,20 @@
 &trans                &trans                 &trans          &trans      &trans        &trans    &mkp RCLK        &trans  &trans  &kp N0  &kp DOT  &trans
             >;
 
-            display-name = "alt_layer";
+            display-name = "alt";
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
         };
 
         layer_2 {
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &none  &none  &none  &none  &none  &none        &none
-&bt BT_CLR_ALL  &out OUT_TOG  &none         &none         &bl BL_TOG    &rgb_ug RGB_EFF                   &none  &none  &none  &none  &none  &none        &none
-&none           &none         &none         &none         &bl BL_CYCLE  &rgb_ug RGB_TOG                   &none  &none  &none  &none  &none  &sys_reset   &none
-&none           &none         &none         &bootloader   &none         &rgb_ug RGB_COLOR_HSB(0,0,100)    &none  &none  &none  &none  &none  &bootloader  &tog 0
-&none           &none         &none         &none         &none         &none                             &none  &none  &none  &none  &none  &none
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                      &none  &none  &none  &none  &none  &none        &none
+&bt BT_CLR_ALL  &out OUT_TOG  &none         &none            &bl BL_TOG       &rgb_ug RGB_EFF                   &none  &none  &none  &none  &none  &none        &none
+&none           &none         &none         &none            &bl BL_CYCLE     &rgb_ug RGB_TOG                   &none  &none  &none  &none  &none  &sys_reset   &none
+&none           &none         &none         &bootloader      &rgb_ug RGB_BRI  &rgb_ug RGB_COLOR_HSB(0,0,100)    &none  &none  &none  &none  &none  &bootloader  &to 0
+&none           &none         &none         &rgb_ug RGB_BRD  &none            &none                             &none  &none  &none  &none  &none  &none
             >;
 
-            sensor-bindings = <&scroll_encoder>;
-            label = "bt_rgb_layer";
+            label = "bt & rgb";
         };
     };
 };
