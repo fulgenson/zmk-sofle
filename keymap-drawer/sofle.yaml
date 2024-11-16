@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: bt_rgb_layer, h: toggle}
+  - {t: \, s: '|'}
   - $$mdi:volume-off$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
@@ -198,3 +198,4 @@ layers:
 combos:
 - p: [51, 38]
   k: {t: bt_rgb_layer, h: toggle}
+  l: [base_layer]
