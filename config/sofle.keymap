@@ -97,7 +97,7 @@
 &none           &none         &none         &rgb_ug RGB_BRD  &none            &none                             &none  &none  &none  &none  &none  &none
             >;
 
-            label = "bt & rgb";
+            label = "BT&RGB";
         };
     };
 };
