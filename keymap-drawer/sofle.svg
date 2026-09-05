@@ -638,10 +638,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="882" y="183" width="28" height="26" class="combo"/>
-<text x="896" y="196" class="combo tap">
-<tspan x="896" dy="-0.6em">bt</tspan><tspan x="896" dy="1.2em">…</tspan>
-</text>
-<text x="896" y="207" class="combo hold">toggle</text>
+<a href="#BTRGB">
+<text x="896" y="196" class="combo tap layer-activator">BT&amp;RGB</text>
+</a><text x="896" y="207" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -989,8 +988,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 776)" class="layer-bt &amp; rgb">
-<text x="0" y="28" class="label" id="bt--rgb">bt &amp; rgb:</text>
+<g transform="translate(40, 776)" class="layer-BT&amp;RGB">
+<text x="0" y="28" class="label" id="BTRGB">BT&amp;RGB:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

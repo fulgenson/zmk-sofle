@@ -130,7 +130,7 @@ layers:
   - {t: '0', s: )}
   - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
-  bt & rgb:
+  BT&RGB:
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -197,5 +197,5 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [51, 38]
-  k: {t: bt & rgb, h: toggle}
+  k: {t: BT&RGB, h: toggle}
   l: [base]
