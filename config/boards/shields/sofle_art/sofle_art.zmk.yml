@@ -1,0 +1,8 @@
+file_format: "1"
+id: sofle_art
+name: nice!view animated art (sofle_art)
+type: shield
+url: https://nicekeyboards.com/nice-view
+requires: [nice_view_header]
+features:
+  - display
